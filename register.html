@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Register</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+		<link rel="stylesheet" href="register.css" />
+
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+	</head>
+	<body class="body">
+		<div class="container">
+			<span class="image"></span>
+			
+			<form action="Emergency.html" id="form">
+				<div class="right">
+					<p>
+						<input
+							type="text"
+							class="name"
+							id="name-el"
+							placeholder="Full Name"
+						/>
+					</p>
+	
+					<p class="emailP">
+						<input type="email" class="email" id="em-el" placeholder="Email" />
+						
+					</p>
+	
+					<span class="Span-email" id="em-span-el"></span>
+	
+	
+					<p>
+						<input
+							type="password"
+							class="password"
+							id="pass-el"
+							placeholder="Password"
+						/>
+						<i class="bi bi-eye-slash" id="togglePassword"></i>
+					</p>
+	
+					<span class="Passtxt " id="span-pas-el"> </span>
+	
+					<p>
+						<input
+							type="password"
+							class="con-password"
+							id="conPass-el"
+							placeholder="Confirm Password"
+						/>
+					</p>
+	
+					<span class="Cpasstxt" id="con-pas-el"></span>
+					<p><input type="text" placeholder="Blood Group" class="blood"></p>
+				</div>
+				<div class="left">
+					<p><input type="text" placeholder="Gender" class="gender"></p>
+					<p><input type="text" placeholder="Product id" class="product-id"></p>
+					<p><input type="text" placeholder="Model Name" class="model-number"></p>
+					<p><input type="text" placeholder="Disability Type" class="disability"></p>
+
+				</div>
+			</form>
+			<a href="Emergency.html">
+				<button class="register">Next</button>
+			</a>
+		</div>
+		<script src="register.js"></script>
+	</body>
+</html>

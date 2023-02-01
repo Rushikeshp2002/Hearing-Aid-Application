@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(210deg, #08FFB8 13.4%, #5799F7 86.6%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    
+}
+
+.regis{
+    display: none;
+}
+
+.container{
+    width: 100vw;
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.form{
+    display: inline-flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;  
+    flex-direction: row; 
+}
+
+.right{
+    
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+
+
+.name,.email,.password,.con-password,.blood,.gender,.product-id,.model-number,.disability{
+    margin: 1rem;
+    width: 25vw;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: larger;
+    line-height: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.image{
+    display: inline-block;
+    width: 20vw;
+    height: 16vh;
+    background-image: url("register.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 3rem;
+}
+
+.register{
+    width: 27vw;
+    padding: 1rem;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    background-color: #822ADA;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.register:hover{
+    color: #822ADA;
+    background-color: white;
+    border: 2px solid #822ADA;
+    
+}
+
+.valid{
+    color:rgb(208, 255, 0);
+    margin-left: 2rem;
+    font-size: larger;
+    width: 3vw;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.invalid{
+    color: rgb(255, 0, 0);
+    margin-left: 2rem;
+    font-size: larger;
+    display: inline-block;
+    width:  25vw;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+form i{
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.container .email{
+    display: block;
+    
+}
+
+
+
+@media (max-width:1300px){
+    .body{
+        height: 100vh;
+        padding-bottom: 3rem;
+        overflow-y: scroll;
+        padding-top: 6rem ;
+    }
+    .image{
+        position: absolute;
+        padding-bottom: -1rem;
+        z-index: 9999;
+        width: 12rem;
+        top: 0;
+        
+    }
+    
+    
+
+
+    
+    .container{
+        height: 100vh;
+        
+        
+    }
+    .name,.email,.password,.con-password,.blood,.gender,.product-id,.model-number,.disability{
+        width: 80vw;
+        margin: 1rem;
+        font-size: medium;
+    }
+
+    .form{
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        line-height: 1rem;
+        
+    }
+
+    .register{
+        width: 90vw;
+        font-size: 1.5rem;
+        padding: 0.7rem;
+    }
+    .invalid{
+        width: 80vw;
+    }
+    .valid{
+        width: 80vw;
+    }
+
+}
