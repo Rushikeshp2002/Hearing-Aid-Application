@@ -9,7 +9,7 @@
     background: linear-gradient(210deg, #08FFB8 13.4%, #5799F7 86.6%);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+/*     overflow: hidden; */
     padding-top: 2rem;
     padding-bottom: 2rem;
     
