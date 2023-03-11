@@ -1,7 +1,15 @@
 # Hackathon-Project
-  webpage link:- https://rushikeshp2002.github.io/Hearing-Aid-Application/
+
   
-  <h1>Screenshots of the website</h1>
+  webpage link:- https://rushikeshp2002.github.io/Hearing-Aid-Application/
+  <h1>Summary</h1>
+  It is a web application whose problem statement was given by ministry of india in a national level hackathon,<br> "Smart India Hackathon 2022".<br><br>
+  Main goal was to create a app which will be connected with a smart hearing aid to detect fall and notify a alert to there family member's:-<br>
+  -The web page is responsive and was embedded in a application module using android studio, so that it would run like an android application<br>
+  -It is loaded with tons of features<br>
+  -Ui/Ux is designed in a way to help old age people, understand the flow of application<br>
+  
+  <h2>Screenshots of the website</h2>
   <img src="https://github.com/Rushikeshp2002/tp/blob/main/1.png" style="width=100%">
   <br>
   
