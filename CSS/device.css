@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    -webkit-tap-higlight-color: transparent;
+    
 }
 
 .body{
@@ -118,6 +118,7 @@ li{
     display: flex;
     /* width: 100vw; */
     justify-content: center;
+    -webkit-tap-higlight-color: transparent;
     /* background-color: #fff; */
     
 }
@@ -136,6 +137,7 @@ li{
     font-family: 'Secular One', sans-serif;
     font-size: 5vw;
     text-transform: uppercase;
+    -webkit-tap-higlight-color: transparent;
 }
 
 
